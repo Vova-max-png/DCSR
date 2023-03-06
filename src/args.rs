@@ -1,9 +1,9 @@
 use std::path::PathBuf;
 use clap::Parser;
 
-/// Simple program to greet a person
+/// Program to read docs
 #[derive(Parser, Debug)]
-#[command(author, version, about, long_about = None)]
+#[command(author="Cat", version="0.0.1", about, long_about = None)]
 pub struct Args {
     /// Paths to files
     pub url: String,
