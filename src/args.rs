@@ -6,8 +6,6 @@ use clap::Parser;
 #[command(author="Cat", version, about, long_about = None)]
 pub struct Args {
     /// Paths to files
-    #[arg(default_value_t = String::from("https://googlt.com"))]
+    #[arg(default_value_t = String::from("https://google.com"))]
     pub url: String,
-    #[arg(default_value_t = String::from("dark"))]
-    pub theme: String,
 }
