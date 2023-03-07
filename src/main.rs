@@ -5,7 +5,9 @@ use wry::{
     application::{
       event::{Event, StartCause, WindowEvent},
       event_loop::{ControlFlow, EventLoop},
-      window::WindowBuilder, dpi::{PhysicalSize, PhysicalPosition},
+      window::{WindowBuilder, BORDERLESS_RESIZE_INSET}, dpi::{PhysicalSize, PhysicalPosition, LogicalSize},
+      window::Fullscreen,
+      monitor::MonitorHandle,
     },
     webview::WebViewBuilder,
   };
@@ -16,8 +18,8 @@ fn main() -> wry::Result<()> {
     let event_loop = EventLoop::new();
     let window = WindowBuilder::new()
       .with_title("Docs reader")
-      .with_inner_size(PhysicalSize{width: 1200, height: 900})
       .with_position(PhysicalPosition{x: 0, y: 0})
+      .with_fullscreen(Some(Fullscreen::Borderless(None)))
       .build(&event_loop)?;
     let _webview = WebViewBuilder::new(window)?
       .with_url(args.url.as_str())?
