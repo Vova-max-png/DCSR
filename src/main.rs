@@ -6,7 +6,7 @@ use wry::{
       event::{Event, StartCause, WindowEvent},
       event_loop::{ControlFlow, EventLoop},
       window::{WindowBuilder}, dpi::{PhysicalPosition, LogicalSize},
-      window::Fullscreen, 
+      window::Fullscreen,
       window::Theme,
     },
     webview::WebViewBuilder,

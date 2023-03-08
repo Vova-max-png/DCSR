@@ -5,7 +5,7 @@ use clap::Parser;
 #[derive(Parser, Debug)]
 #[command(author="Cat", version, about, long_about = None)]
 pub struct Args {
-    /// Paths to files
+    /// Url to page
     #[arg(default_value_t = String::from("https://google.com"))]
     pub url: String,
 }
