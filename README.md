@@ -5,6 +5,13 @@
 
 **DCSR** - A small webview window for previewing a doc.
 
+# Instalation
+
+## Cargo:
+```
+cargo install DCSR
+```
+
 # Usage
 
 Use the command DCSR:
