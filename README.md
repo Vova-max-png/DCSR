@@ -1,5 +1,6 @@
 # DCSR | Docs reader
 
+![version](https://img.shields.io/crates/v/DCSR)
 ![lines](https://img.shields.io/tokei/lines/github/Vova-max-png/DCSR?color=green)
 ![license](https://img.shields.io/github/license/Vova-max-png/DCSR?color=blue)
 
