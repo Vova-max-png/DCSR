@@ -7,7 +7,7 @@ description = "A small webview window for previewing a doc."
 license = "MIT"
 documentation = "github.com/Vova-max-png/DCSR"
 repository = "github.com/Vova-max-png/DCSR"
-categories = "Command line utilities"
+categories = ["Command line utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
