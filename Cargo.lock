@@ -7,7 +7,6 @@ name = "DCSR"
 version = "0.0.3"
 dependencies = [
  "clap",
- "glfw",
  "wry",
 ]
 
@@ -194,15 +193,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "350b9cf31731f9957399229e9b2adc51eeabdfbe9d71d9a0552275fd12710d09"
 dependencies = [
  "os_str_bytes",
-]
-
-[[package]]
-name = "cmake"
-version = "0.1.49"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "db34956e100b30725f2eb215f90d4871051239535632f84fea3bc92722c66b7c"
-dependencies = [
- "cc",
 ]
 
 [[package]]
@@ -731,28 +721,6 @@ dependencies = [
  "libc",
  "system-deps",
  "winapi",
-]
-
-[[package]]
-name = "glfw"
-version = "0.51.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "919ebc7bdbf60a529689a5e58f80d9dcde27e3d2ab4f2f7ce711ec439fe789c5"
-dependencies = [
- "bitflags",
- "glfw-sys",
- "objc",
- "raw-window-handle",
- "winapi",
-]
-
-[[package]]
-name = "glfw-sys"
-version = "4.0.0+3.3.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5abed6d39a50226676aab893d6b4ad154da7e93fcdfed90d7696758a1b477ed1"
-dependencies = [
- "cmake",
 ]
 
 [[package]]

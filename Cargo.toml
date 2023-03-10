@@ -13,5 +13,4 @@ categories = ["Command line utilities"]
 
 [dependencies]
 clap = { version = "4.1.8", features = ["derive"] }
-glfw = "0.51.0"
 wry = "0.27.0"
