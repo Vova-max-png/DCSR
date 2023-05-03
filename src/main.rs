@@ -30,11 +30,10 @@ fn main() -> wry::Result<()> {
       *control_flow = ControlFlow::Wait;
   
       match event {
-        Event::WindowEvent {
-          event: WindowEvent::CloseRequested,
-          ..
-        } => *control_flow = ControlFlow::Exit,
-        _ => (),
-      }
-    });
-  }
+          Event::WindowEvent {
+              event: WindowEvent::CloseRequested,
+              ..
+          } => *control_flow = ControlFlow::Exit,
+          _ => (),
+      }});
+}
