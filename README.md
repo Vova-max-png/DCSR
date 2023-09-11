@@ -6,7 +6,7 @@
 
 **DCSR** - A small webview window for previewing a doc.
 
-# Instalation
+# Installation
 
 ## Cargo:
 ```
@@ -26,3 +26,5 @@ DCSR https://docs.rs/clap
 DCSR file://<path>/index.html
 DCSR https://google.com
 ```
+
+P.S. I don't know why lines counter doesn't work :)

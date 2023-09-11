@@ -3,9 +3,9 @@ mod args;
 use args::*;
 use wry::{
     application::{
-      event::{Event, StartCause, WindowEvent},
+      event::{Event, WindowEvent},
       event_loop::{ControlFlow, EventLoop},
-      window::{WindowBuilder}, dpi::{PhysicalPosition, LogicalSize},
+      window::WindowBuilder, dpi::PhysicalPosition,
       window::Fullscreen,
       window::Theme,
     },
