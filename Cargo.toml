@@ -1,6 +1,6 @@
 [package]
 name = "DCSR"
-version = "0.0.4"
+version = "0.0.5"
 edition = "2021"
 authors = ["Cat"]
 description = "A small webview window for previewing a doc."
